@@ -3,9 +3,8 @@
 const Hero = () => {
     return (
         <div>
-            <img src="https://rabbil.com/files/rabbilVai1.webp?v=2" />
-            <h2>Welcome to Our Website</h2>
-            <p>Your success starts here.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqTF0VSpbrw8D-OE7iMo3bAZUwdg4U9LFqwg&s" />
+            <h1>Welcome to Our Website</h1>
         </div>
     );
 };
