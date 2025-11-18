@@ -13,6 +13,8 @@ let MARKS = 90;
 // 5.You can change the value of Marks to test different conditions
 let Marks = 70;
 
+const City = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix'];
+
   return (
     <div>
       {/* //1. Rendering Components */}
@@ -54,9 +56,22 @@ let Marks = 70;
         } else {
           return <h2>Needs Improvement</h2>;
         } 
-
-
       })()}
+
+
+      {/* //6. Loop Inside */}
+
+      <ul>
+        {
+        City.map((city, index) => {
+
+          return <li key={index.toString}>{city}</li>
+        })
+        
+        }
+
+      </ul>
+
 
     </div>
   );
